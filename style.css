@@ -1,0 +1,101 @@
+.overall{
+    margin: none;
+    overflow-x: hidden;
+    /* overflow-y:auto; */
+    background-image: linear-gradient(to bottom, rgb(233, 239, 244), rgb(54, 150, 189));
+    max-height: 100%;
+}
+html, body {
+    overflow-y: auto;
+  }
+  
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+li a{
+  color: rgb(10, 170, 122);
+  margin: 10px;
+  font-weight: 400;
+  font-size: 2.5vh;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+.section{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    padding-bottom: 7em;
+}
+#text {
+    position: absolute;
+    margin-left: 2.5vh;
+    font-size: 5em;
+    color: rgb(243, 243, 245);
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out; /* add a transition effect for a smoother animation */
+}
+.section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+.sec2{
+    background-color: rgb(79, 207, 232);
+    color: white;
+    height: 45vh;
+    padding: 20vh;
+}
+.sec2 h2{
+    margin-top: 2vh;
+    color: white;
+    font-size: 6vh;
+    text-align: center;
+}
+.activity h2{
+    color:  rgb(54, 150, 189);
+    text-align: center;
+    font-size: 4vh;
+}
+.activity{
+    padding: 20vh;
+    height: 70vh;
+    background-color: white;
+   
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 35vh;
+    width: 35vh;
+    border: 1px solid black;
+    box-shadow: 5px 10px black;
+    border-radius: 100%;
+    margin: 1.5vh;
+    padding: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    height: 20vh;
+    background-color: black;
+}
+.activity_name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
